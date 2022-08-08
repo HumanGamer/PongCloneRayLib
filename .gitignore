@@ -1,7 +1,8 @@
 # Project exclude paths
-/build/debug-linux-x64/
-/build/debug-x64/
-/build/debug-x86/
-/build/release-linux-x64/
-/build/release-x64/
-/build/release-x86/
+/build/
+/.vs/
+/.idea/
+*.exe
+*.dll
+*.ilk
+*.pdb
