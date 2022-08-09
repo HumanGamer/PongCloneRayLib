@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.23) # FetchContent is available in 3.11+
 
 set(ProjectOutDir "${CMAKE_SOURCE_DIR}/game")
 
-project(testgameraylib)
+project(PongCloneRayLib)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
