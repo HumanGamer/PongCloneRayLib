@@ -27,7 +27,12 @@ endif()
 # Our Project
 
 set(MAIN_SRC
+    # Sources
     main.cpp
+    Game.cpp
+
+    # Headers
+    Game.hpp
 )
 
 add_executable(${PROJECT_NAME} ${MAIN_SRC})
