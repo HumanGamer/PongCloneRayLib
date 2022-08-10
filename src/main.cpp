@@ -23,6 +23,10 @@ int main(int argc, char* argv[])
 
 #if defined(PLATFORM_WEB)
     InitWindow(screenWidth, screenHeight, "Test Game");
+    
+    game = new Game();
+    game->Init();
+    
     emscripten_set_main_loop(GameLoop, 0, 1);
 #else
     InitWindow(screenWidth, screenHeight, "Test Game");
